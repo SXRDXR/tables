@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="overflow-hidden">
+    <div class="w-screen h-auto bg-violet-100 flex flex-col justify-center items-center">
+<!--        cxntainer first type start-->
+        <div class="cxntainer w-[1000px] h-[500px] rounded-[10px] mt-[50px] bg-gray-50 shadow-2xl px-[15px] py-[10px]">
+            <div class="w-[100%] h-[50px] flex flex-row justify-between items-center">
+
+                <div class="w-[50%] h-full font-semibold text-[23px] text-gray-700 font-[Bahnschrift]">
+                    <p>Basic Table </p>
+                </div>
+
+                <div class="w-[15%] h-full flex flex-row justify-between items-center">
+                    <div class="font-semibold text-[17px] text-gray-700 font-[Bahnschrift]"><p>Show Code</p></div>
+                    <div class="w-[40px] h-[20px] rounded-[10px] bg-gray-700 flex items-center hover:bg-green-500 hover:shadow-md border-[1px] duration-500 border-transparent  hover:shadow-gray-500 px-[5px]">
+                        <div class="w-[13px] h-[13px] rounded-full bg-gray-100 hover:translate-x-[16px] hover:shadow-md hover:shadow-gray-600 duration-300"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="w-[100%] h-[100px] flex flex-row">
+                <div class="w-[60%] h-[100px] flex flex-row font-semibold text-gray-500 text-[15px]">
+                    <p>The table component allows the user to show and hide sections of related content on a page. Check out code for detail of usage.</p>
+                </div>
+                <div class="w-[40%] h-[100px] flex flex-row justify-end items-center">
+                    <button type="button" class="rxpple w-[140px] h-[40px] flex flex-col justify-center items-center  bg-green-500 rounded-[10px] text-[20px] font-bold font-[Bahnschrift] text-gray-50 shadow-md duration-300 hover:shadow-xl hover:bg-green-400 hover:text-gray-800 hover:translate-y-[-1px] cursor-pointer "> Add product </button>
+                </div>
+            </div>
+
+            <div class="w-full h-auto border-[4px] rounded-[10px] border-gray-200 ">
+                <table class="w-full h-auto font-semibold font-[Bahnschrift]">
+                    <tr class="h-[60px]">
+                        <th>№</th>
+                        <th class="">ID</th>
+                        <th class="">PRODUCT</th>
+                        <th class="">COUNT</th>
+                        <th class="">STOCK ADDRESS</th>
+                        <th class="">TAKEN PRICE</th>
+                        <th class="">SOLD PRICE</th>
+                        <th class="">ACTION</th>
+                    </tr>
+                    <tr class="tr_border text-center">
+                        <td>1</td>
+                        <td class="td_border">#31215</td>
+                        <td class="td_border">banana</td>
+                        <td class="td_border">30</td>
+                        <td class="td_border">Navoiy</td>
+                        <td class="td_border">300 000 sum</td>
+                        <td class="td_border">420 000 sum</td>
+                        <td class="td_border dxlete"><div>Delete</div></td>
+                    </tr>
+                    <tr class="tr_border text-center">
+                        <td>2</td>
+                        <td class="td_border">#31215</td>
+                        <td class="td_border">banana</td>
+                        <td class="td_border">30</td>
+                        <td class="td_border">Navoiy</td>
+                        <td class="td_border">300 000 sum</td>
+                        <td class="td_border">420 000 sum</td>
+                        <td class="td_border dxlete"><div>Delete</div></td>
+                    </tr>
+                    <tr class="tr_border text-center">
+                        <td>3</td>
+                        <td class="td_border">#31215</td>
+                        <td class="td_border">banana</td>
+                        <td class="td_border">30</td>
+                        <td class="td_border">Navoiy</td>
+                        <td class="td_border">300 000 sum</td>
+                        <td class="td_border">420 000 sum</td>
+                        <td class="td_border dxlete"><div>Delete</div></td>
+                    </tr>
+                    <tr class="tr_border text-center">
+                        <td>4</td>
+                        <td class="td_border">#31215</td>
+                        <td class="td_border">banana</td>
+                        <td class="td_border">30</td>
+                        <td class="td_border">Navoiy</td>
+                        <td class="td_border">300 000 sum</td>
+                        <td class="td_border">420 000 sum</td>
+                        <td class="td_border dxlete"><div>Delete</div></td>
+                    </tr>
+                    <tr class="tr_border text-center">
+                        <td>5</td>
+                        <td class="td_border">#31215</td>
+                        <td class="td_border">banana</td>
+                        <td class="td_border">30</td>
+                        <td class="td_border">Navoiy</td>
+                        <td class="td_border">300 000 sum</td>
+                        <td class="td_border">420 000 sum</td>
+                        <td class="td_border dxlete"><div>Delete</div></td>
+                    </tr>
+                    <tr class="tr_border text-center">
+                        <td>6</td>
+                        <td class="td_border">#31215</td>
+                        <td class="td_border">banana</td>
+                        <td class="td_border">30</td>
+                        <td class="td_border">Navoiy</td>
+                        <td class="td_border">300 000 sum</td>
+                        <td class="td_border">420 000 sum</td>
+                        <td class="td_border dxlete"><div>Delete</div></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+<!--        cxntainer first type end-->
+
+<!--        second type of table start-->
+        <div class="cxntainer w-[1000px] h-[500px] rounded-[10px] mt-[100px] bg-gray-50 shadow-2xl px-[15px] py-[10px]">
+            <div class="w-[100%] h-[50px] flex flex-row justify-between items-center">
+
+                <div class="w-[50%] h-full font-semibold text-[23px] text-gray-700 font-[Bahnschrift]">
+                    <p>Basic Table with Zebras </p>
+                </div>
+
+                <div class="w-[15%] h-full flex flex-row justify-between items-center">
+                    <div class="font-semibold text-[17px] text-gray-700 font-[Bahnschrift]"><p>Show Code</p></div>
+                    <div class="w-[40px] h-[20px] rounded-[10px] bg-gray-700 flex items-center hover:bg-green-500 hover:shadow-md border-[1px] duration-500 border-transparent  hover:shadow-gray-500 px-[5px]">
+                        <div class="w-[13px] h-[13px] rounded-full bg-gray-100 hover:translate-x-[16px] hover:shadow-md hover:shadow-gray-600 duration-300"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="w-[100%] h-[100px] flex flex-row">
+                <div class="w-[60%] h-[100px] flex flex-row font-semibold text-gray-500 text-[15px]">
+                    <p>The table component allows the user to show and hide sections of related content on a page. Check out code for detail of usage.</p>
+                </div>
+                <div class="w-[40%] h-[100px] flex flex-row justify-end items-center">
+                    <button class="rxpple w-[140px] h-[40px] flex flex-col justify-center items-center bg-green-500 rounded-[10px] text-[20px] font-bold font-[Bahnschrift] text-gray-50 shadow-md duration-300 hover:shadow-xl hover:bg-green-400 hover:text-gray-800 hover:translate-y-[-1px] cursor-pointer "> Add product </button>
+                </div>
+            </div>
+
+
+            <div class="w-full h-auto border-[4px] rounded-[10px] border-gray-200 ">
+                <table class="w-full h-auto font-semibold font-[Bahnschrift]">
+                    <tr class="th_border bg-gray-200 h-[60px]">
+                        <th>№</th>
+                        <th class="">ID</th>
+                        <th class="">PRODUCT</th>
+                        <th class="">STOCK PLACE</th>
+                        <th class="">TAKEN PRICE</th>
+                        <th class="">SOLD PRICE</th>
+                        <th class="">ACTION</th>
+                    </tr>
+                    <tr class="tr_border text-center">
+                        <td>1</td>
+                        <td class="td_border">#31215</td>
+                        <td class="td_border">banana</td>
+                        <td class="td_border">Navoiy</td>
+                        <td class="td_border">300 000 sum</td>
+                        <td class="td_border">420 000 sum</td>
+                        <td class="td_border dxlete"><div>Delete</div></td>
+                    </tr>
+                    <tr class="tr_borderbl text-center">
+                        <td>2</td>
+                        <td class="td_border">#31215</td>
+                        <td class="td_border">banana</td>
+                        <td class="td_border">Navoiy</td>
+                        <td class="td_border">300 000 sum</td>
+                        <td class="td_border">420 000 sum</td>
+                        <td class="td_border dxlete"><div>Delete</div></td>
+                    </tr>
+                    <tr class="tr_border text-center">
+                        <td>3</td>
+                        <td class="td_border">#31215</td>
+                        <td class="td_border">banana</td>
+                        <td class="td_border">Navoiy</td>
+                        <td class="td_border">300 000 sum</td>
+                        <td class="td_border">420 000 sum</td>
+                        <td class="td_border dxlete"><div>Delete</div></td>
+                    </tr>
+                    <tr class="tr_borderbl text-center">
+                        <td>4</td>
+                        <td class="td_border">#31215</td>
+                        <td class="td_border">banana</td>
+                        <td class="td_border">Navoiy</td>
+                        <td class="td_border">300 000 sum</td>
+                        <td class="td_border">420 000 sum</td>
+                        <td class="td_border dxlete"><div>Delete</div></td>
+                    </tr>
+                    <tr class="tr_border text-center">
+                        <td>5</td>
+                        <td class="td_border">#31215</td>
+                        <td class="td_border">banana</td>
+                        <td class="td_border">Navoiy</td>
+                        <td class="td_border">300 000 sum</td>
+                        <td class="td_border">420 000 sum</td>
+                        <td class="td_border dxlete"><div>Delete</div></td>
+                    </tr>
+                    <tr class="tr_borderbl text-center">
+                        <td>6</td>
+                        <td class="td_border">#31215</td>
+                        <td class="td_border">banana</td>
+                        <td class="td_border">Navoiy</td>
+                        <td class="td_border">300 000 sum</td>
+                        <td class="td_border">420 000 sum</td>
+                        <td class="td_border dxlete"><div>Delete</div></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+<!--        second type of table end-->
+
+
+<!--        third type of table start-->
+
+        <div class="cxntainer w-[1000px] h-[500px] rounded-[10px] mt-[50px] bg-gray-50 shadow-2xl px-[15px] py-[10px]">
+            <div class="w-[100%] h-[50px] flex flex-row justify-between items-center">
+
+                <div class="w-[50%] h-full font-semibold text-[23px] text-gray-700 font-[Bahnschrift]">
+                    <p>Hoverable Basic Table  </p>
+                </div>
+
+                <div class="w-[15%] h-full flex flex-row justify-between items-center">
+                    <div class="font-semibold text-[17px] text-gray-700 font-[Bahnschrift]"><p>Show Code</p></div>
+                    <div class="w-[40px] h-[20px] rounded-[10px] bg-gray-700 flex items-center hover:bg-green-500 hover:shadow-md border-[1px] duration-500 border-transparent  hover:shadow-gray-500 px-[5px]">
+                        <div class="w-[13px] h-[13px] rounded-full bg-gray-100 hover:translate-x-[16px] hover:shadow-md hover:shadow-gray-600 duration-300"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="w-[100%] h-[100px] flex flex-row">
+                <div class="w-[60%] h-[100px] flex flex-row font-semibold text-gray-500 text-[15px]">
+                    <p>The table component allows the user to show and hide sections of related content on a page. Check out code for detail of usage.</p>
+                </div>
+                <div class="w-[40%] h-[100px] flex flex-row justify-end items-center">
+                    <button class="rxpple w-[140px] h-[40px] flex flex-col justify-center items-center bg-green-500 rounded-[10px] text-[20px] font-bold font-[Bahnschrift] text-gray-50 shadow-md duration-300 hover:shadow-xl hover:bg-green-400 hover:text-gray-800 hover:translate-y-[-1px] cursor-pointer "> Add product </button>
+                </div>
+            </div>
+
+            <div class="w-full h-auto border-[4px] rounded-[10px] border-gray-200 ">
+                <table class="w-full h-auto font-semibold font-[Bahnschrift]">
+                    <tr class="h-[60px] hxver">
+                        <th>№</th>
+                        <th class="">ID</th>
+                        <th class="">PRODUCT</th>
+                        <th class="">COUNT</th>
+                        <th class="">STOCK ADDRESS</th>
+                        <th class="">TAKEN PRICE</th>
+                        <th class="">SOLD PRICE</th>
+                        <th class="">ACTION</th>
+                    </tr>
+                    <tr class="tr_border hxver text-center">
+                        <td>1</td>
+                        <td class="td_border">#31215</td>
+                        <td class="td_border">banana</td>
+                        <td class="td_border">30</td>
+                        <td class="td_border">Navoiy</td>
+                        <td class="td_border">300 000 sum</td>
+                        <td class="td_border">420 000 sum</td>
+                        <td class="td_border dxlete"><div>Delete</div></td>
+                    </tr>
+                    <tr class="tr_border hxver text-center">
+                        <td>2</td>
+                        <td class="td_border">#31215</td>
+                        <td class="td_border">banana</td>
+                        <td class="td_border">30</td>
+                        <td class="td_border">Navoiy</td>
+                        <td class="td_border">300 000 sum</td>
+                        <td class="td_border">420 000 sum</td>
+                        <td class="td_border dxlete"><div>Delete</div></td>
+                    </tr>
+                    <tr class="tr_border hxver text-center">
+                        <td>3</td>
+                        <td class="td_border">#31215</td>
+                        <td class="td_border">banana</td>
+                        <td class="td_border">30</td>
+                        <td class="td_border">Navoiy</td>
+                        <td class="td_border">300 000 sum</td>
+                        <td class="td_border">420 000 sum</td>
+                        <td class="td_border dxlete"><div>Delete</div></td>
+                    </tr>
+                    <tr class="tr_border hxver text-center">
+                        <td>4</td>
+                        <td class="td_border">#31215</td>
+                        <td class="td_border">banana</td>
+                        <td class="td_border">30</td>
+                        <td class="td_border">Navoiy</td>
+                        <td class="td_border">300 000 sum</td>
+                        <td class="td_border">420 000 sum</td>
+                        <td class="td_border dxlete"><div>Delete</div></td>
+                    </tr>
+                    <tr class="tr_border hxver text-center">
+                        <td>5</td>
+                        <td class="td_border">#31215</td>
+                        <td class="td_border">banana</td>
+                        <td class="td_border">30</td>
+                        <td class="td_border">Navoiy</td>
+                        <td class="td_border">300 000 sum</td>
+                        <td class="td_border">420 000 sum</td>
+                        <td class="td_border dxlete"><div>Delete</div></td>
+                    </tr>
+                    <tr class="tr_border hxver text-center">
+                        <td>6</td>
+                        <td class="td_border">#31215</td>
+                        <td class="td_border">banana</td>
+                        <td class="td_border">30</td>
+                        <td class="td_border">Navoiy</td>
+                        <td class="td_border">300 000 sum</td>
+                        <td class="td_border">420 000 sum</td>
+                        <td class="td_border dxlete"><div>Delete</div></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+<!--        third type of table end-->
+
+<!--        fourth type of table start-->
+
+        <div class="cxntainer w-[1000px] h-auto rounded-[10px] mt-[50px] bg-gray-50 shadow-2xl px-[15px] py-[10px]">
+            <div class="w-[100%] h-[50px] flex flex-row justify-between items-center">
+
+                <div class="w-[50%] h-full font-semibold text-[23px] text-gray-700 font-[Bahnschrift]">
+                    <p>Hoverable Basic Table with breakpoint</p>
+                </div>
+
+                <div class="w-[15%] h-full flex flex-row justify-between items-center">
+                    <div class="font-semibold text-[17px] text-gray-700 font-[Bahnschrift]"><p>Show Code</p></div>
+                    <div class="w-[40px] h-[20px] rounded-[10px] bg-gray-700 flex items-center hover:bg-green-500 hover:shadow-md border-[1px] duration-500 border-transparent  hover:shadow-gray-500 px-[5px]">
+                        <div class="w-[13px] h-[13px] rounded-full bg-gray-100 hover:translate-x-[16px] hover:shadow-md hover:shadow-gray-600 duration-300"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="w-[100%] h-[100px] flex flex-row">
+                <div class="w-[60%] h-[100px] flex flex-row font-semibold text-gray-500 text-[15px]">
+                    <p>The table component allows the user to show and hide sections of related content on a page. Check out code for detail of usage.</p>
+                </div>
+                <div class="w-[40%] h-[100px] flex flex-row justify-end items-center">
+                    <button type="button" class="rxpple w-[140px] h-[40px] flex flex-col justify-center items-center bg-green-500 rounded-[10px] text-[20px] font-bold font-[Bahnschrift] text-gray-50 shadow-md duration-300 hover:shadow-xl hover:bg-green-400 hover:text-gray-800 hover:translate-y-[-1px] cursor-pointer "> Add product </button>
+                </div>
+            </div>
+
+            <div class="w-full h-auto border-[4px] rounded-[10px] border-gray-200 ">
+                <table class="w-full h-auto font-semibold font-[Bahnschrift]">
+                    <tr class="h-[60px] hxver">
+                        <th>№</th>
+                        <th class="">ID</th>
+                        <th class="">PRODUCT</th>
+                        <th class="">COUNT</th>
+                        <th class="">STOCK ADDRESS</th>
+                        <th class="">TAKEN PRICE</th>
+                        <th class="">SOLD PRICE</th>
+                        <th class="">ACTION</th>
+                    </tr>
+                    <tr class="tr_border hxver text-center">
+                        <td>1</td>
+                        <td class="td_border">#31215</td>
+                        <td class="td_border">banana</td>
+                        <td class="td_border">30</td>
+                        <td class="td_border">Navoiy</td>
+                        <td class="td_border">300 000 sum</td>
+                        <td class="td_border">420 000 sum</td>
+                        <td class="td_border dxlete"><div>Delete</div></td>
+                    </tr>
+                    <tr class="tr_border hxver text-center">
+                        <td>2</td>
+                        <td class="td_border">#31215</td>
+                        <td class="td_border">banana</td>
+                        <td class="td_border">30</td>
+                        <td class="td_border">Navoiy</td>
+                        <td class="td_border">300 000 sum</td>
+                        <td class="td_border">420 000 sum</td>
+                        <td class="td_border dxlete"><div>Delete</div></td>
+                    </tr>
+                    <tr class="tr_border hxver text-center">
+                        <td>3</td>
+                        <td class="td_border">#31215</td>
+                        <td class="td_border">banana</td>
+                        <td class="td_border">30</td>
+                        <td class="td_border">Navoiy</td>
+                        <td class="td_border">300 000 sum</td>
+                        <td class="td_border">420 000 sum</td>
+                        <td class="td_border dxlete"><div>Delete</div></td>
+                    </tr>
+                    <tr class="h-[60px] border-t-[2px] border-gray-200 hxver">
+                        <th>№</th>
+                        <th class="">ID</th>
+                        <th class="">PRODUCT</th>
+                        <th class="">COUNT</th>
+                        <th class="">STOCK ADDRESS</th>
+                        <th class="">TAKEN PRICE</th>
+                        <th class="">SOLD PRICE</th>
+                        <th class="">ACTION</th>
+                    </tr>
+                    <tr class="tr_border hxver text-center">
+                        <td>4</td>
+                        <td class="td_border">#31215</td>
+                        <td class="td_border">banana</td>
+                        <td class="td_border">30</td>
+                        <td class="td_border">Navoiy</td>
+                        <td class="td_border">300 000 sum</td>
+                        <td class="td_border">420 000 sum</td>
+                        <td class="td_border dxlete"><div>Delete</div></td>
+                    </tr>
+                    <tr class="tr_border hxver text-center">
+                        <td>5</td>
+                        <td class="td_border">#31215</td>
+                        <td class="td_border">banana</td>
+                        <td class="td_border">30</td>
+                        <td class="td_border">Navoiy</td>
+                        <td class="td_border">300 000 sum</td>
+                        <td class="td_border">420 000 sum</td>
+                        <td class="td_border dxlete"><div>Delete</div></td>
+                    </tr>
+                    <tr class="tr_border hxver text-center">
+                        <td>6</td>
+                        <td class="td_border">#31215</td>
+                        <td class="td_border">banana</td>
+                        <td class="td_border">30</td>
+                        <td class="td_border">Navoiy</td>
+                        <td class="td_border">300 000 sum</td>
+                        <td class="td_border">420 000 sum</td>
+                        <td class="td_border dxlete"><div>Delete</div></td>
+                    </tr>
+                    <tr class="h-[60px] border-t-[2px] border-gray-200 hxver">
+                        <th>№</th>
+                        <th class="">ID</th>
+                        <th class="">PRODUCT</th>
+                        <th class="">COUNT</th>
+                        <th class="">STOCK ADDRESS</th>
+                        <th class="">TAKEN PRICE</th>
+                        <th class="">SOLD PRICE</th>
+                        <th class="">ACTION</th>
+                    </tr>
+                    <tr class="tr_border hxver text-center">
+                        <td>4</td>
+                        <td class="td_border">#31215</td>
+                        <td class="td_border">banana</td>
+                        <td class="td_border">30</td>
+                        <td class="td_border">Navoiy</td>
+                        <td class="td_border">300 000 sum</td>
+                        <td class="td_border">420 000 sum</td>
+                        <td class="td_border dxlete"><div>Delete</div></td>
+                    </tr>
+                    <tr class="tr_border hxver text-center">
+                        <td>5</td>
+                        <td class="td_border">#31215</td>
+                        <td class="td_border">banana</td>
+                        <td class="td_border">30</td>
+                        <td class="td_border">Navoiy</td>
+                        <td class="td_border">300 000 sum</td>
+                        <td class="td_border">420 000 sum</td>
+                        <td class="td_border dxlete"><div>Delete</div></td>
+                    </tr>
+                    <tr class="tr_border hxver text-center">
+                        <td>6</td>
+                        <td class="td_border">#31215</td>
+                        <td class="td_border">banana</td>
+                        <td class="td_border">30</td>
+                        <td class="td_border">Navoiy</td>
+                        <td class="td_border">300 000 sum</td>
+                        <td class="td_border">420 000 sum</td>
+                        <td class="td_border dxlete"><div>Delete</div></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+<!--        fourth type of table end-->
+
+
+<!--        fifth type of table start-->
+
+        <div class="cxntainer w-[1000px] h-auto rounded-[10px] mt-[50px] bg-gray-50 shadow-2xl px-[15px] py-[10px]">
+            <div class="w-[100%] h-[50px] flex flex-row justify-between items-center">
+
+                <div class="w-[50%] h-full font-semibold text-[23px] text-gray-700 font-[Bahnschrift]">
+                    <p>Hoverable Basic Table with breakpoint</p>
+                </div>
+
+                <div class="w-[15%] h-full flex flex-row justify-between items-center">
+                    <div class="font-semibold text-[17px] text-gray-700 font-[Bahnschrift]"><p>Show Code</p></div>
+                    <div class="w-[40px] h-[20px] rounded-[10px] bg-gray-700 flex items-center hover:bg-green-500 hover:shadow-md border-[1px] duration-500 border-transparent  hover:shadow-gray-500 px-[5px]">
+                        <div class="w-[13px] h-[13px] rounded-full bg-gray-100 hover:translate-x-[16px] hover:shadow-md hover:shadow-gray-600 duration-300"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="w-[100%] h-[100px] flex flex-row">
+                <div class="w-[60%] h-[100px] flex flex-row font-semibold text-gray-500 text-[15px]">
+                    <p>The table component allows the user to show and hide sections of related content on a page. Check out code for detail of usage.</p>
+                </div>
+                <div class="w-[40%] h-[100px] flex flex-row justify-end items-center">
+                    <button type="button" class="rxpple w-[140px] h-[40px] flex flex-col justify-center items-center bg-green-500 rounded-[10px] text-[20px] font-bold font-[Bahnschrift] text-gray-50 shadow-md duration-300 hover:shadow-xl hover:bg-green-400 hover:text-gray-800 hover:translate-y-[-1px] cursor-pointer "> Add product </button>
+                </div>
+            </div>
+
+            <div class="w-full h-auto border-[4px] rounded-[10px] border-gray-200 ">
+                <table class="w-full h-auto font-semibold font-[Bahnschrift]">
+                    <tr class="h-[60px] bg-gray-200 hxver">
+                        <th>№</th>
+                        <th class="">ID</th>
+                        <th class="">PRODUCT</th>
+                        <th class="">COUNT</th>
+                        <th class="">STOCK ADDRESS</th>
+                        <th class="">TAKEN PRICE</th>
+                        <th class="">SOLD PRICE</th>
+                        <th class="">ACTION</th>
+                    </tr>
+                    <tr class="tr_border hxver text-center">
+                        <td>1</td>
+                        <td class="td_border">#31215</td>
+                        <td class="td_border">banana</td>
+                        <td class="td_border">30</td>
+                        <td class="td_border">Navoiy</td>
+                        <td class="td_border">300 000 sum</td>
+                        <td class="td_border">420 000 sum</td>
+                        <td class="td_border dxlete"><div>Delete</div></td>
+                    </tr>
+                    <tr class="tr_border hxver bg-gray-200 text-center">
+                        <td>2</td>
+                        <td class="td_border">#31215</td>
+                        <td class="td_border">banana</td>
+                        <td class="td_border">30</td>
+                        <td class="td_border">Navoiy</td>
+                        <td class="td_border">300 000 sum</td>
+                        <td class="td_border">420 000 sum</td>
+                        <td class="td_border dxlete"><div>Delete</div></td>
+                    </tr>
+                    <tr class="tr_border hxver text-center">
+                        <td>3</td>
+                        <td class="td_border">#31215</td>
+                        <td class="td_border">banana</td>
+                        <td class="td_border">30</td>
+                        <td class="td_border">Navoiy</td>
+                        <td class="td_border">300 000 sum</td>
+                        <td class="td_border">420 000 sum</td>
+                        <td class="td_border dxlete"><div>Delete</div></td>
+                    </tr>
+                    <tr class="h-[60px] bg-gray-200 border-t-[2px] border-gray-200 hxver">
+                        <th>№</th>
+                        <th class="">ID</th>
+                        <th class="">PRODUCT</th>
+                        <th class="">COUNT</th>
+                        <th class="">STOCK ADDRESS</th>
+                        <th class="">TAKEN PRICE</th>
+                        <th class="">SOLD PRICE</th>
+                        <th class="">ACTION</th>
+                    </tr>
+                    <tr class="tr_border hxver text-center">
+                        <td>4</td>
+                        <td class="td_border">#31215</td>
+                        <td class="td_border">banana</td>
+                        <td class="td_border">30</td>
+                        <td class="td_border">Navoiy</td>
+                        <td class="td_border">300 000 sum</td>
+                        <td class="td_border">420 000 sum</td>
+                        <td class="td_border dxlete"><div>Delete</div></td>
+                    </tr>
+                    <tr class="tr_border bg-gray-200 hxver text-center">
+                        <td>5</td>
+                        <td class="td_border">#31215</td>
+                        <td class="td_border">banana</td>
+                        <td class="td_border">30</td>
+                        <td class="td_border">Navoiy</td>
+                        <td class="td_border">300 000 sum</td>
+                        <td class="td_border">420 000 sum</td>
+                        <td class="td_border dxlete"><div>Delete</div></td>
+                    </tr>
+                    <tr class="tr_border hxver text-center">
+                        <td>6</td>
+                        <td class="td_border">#31215</td>
+                        <td class="td_border">banana</td>
+                        <td class="td_border">30</td>
+                        <td class="td_border">Navoiy</td>
+                        <td class="td_border">300 000 sum</td>
+                        <td class="td_border">420 000 sum</td>
+                        <td class="td_border dxlete"><div>Delete</div></td>
+                    </tr>
+                    <tr class="h-[60px] bg-gray-200 border-t-[2px] border-gray-200 hxver">
+                        <th>№</th>
+                        <th class="">ID</th>
+                        <th class="">PRODUCT</th>
+                        <th class="">COUNT</th>
+                        <th class="">STOCK ADDRESS</th>
+                        <th class="">TAKEN PRICE</th>
+                        <th class="">SOLD PRICE</th>
+                        <th class="">ACTION</th>
+                    </tr>
+                    <tr class="tr_border hxver text-center">
+                        <td>4</td>
+                        <td class="td_border">#31215</td>
+                        <td class="td_border">banana</td>
+                        <td class="td_border">30</td>
+                        <td class="td_border">Navoiy</td>
+                        <td class="td_border">300 000 sum</td>
+                        <td class="td_border">420 000 sum</td>
+                        <td class="td_border dxlete"><div>Delete</div></td>
+                    </tr>
+                    <tr class="tr_border bg-gray-200 hxver text-center">
+                        <td>5</td>
+                        <td class="td_border">#31215</td>
+                        <td class="td_border">banana</td>
+                        <td class="td_border">30</td>
+                        <td class="td_border">Navoiy</td>
+                        <td class="td_border">300 000 sum</td>
+                        <td class="td_border">420 000 sum</td>
+                        <td class="td_border dxlete"><div>Delete</div></td>
+                    </tr>
+                    <tr class="tr_border hxver text-center">
+                        <td>6</td>
+                        <td class="td_border">#31215</td>
+                        <td class="td_border">banana</td>
+                        <td class="td_border">30</td>
+                        <td class="td_border">Navoiy</td>
+                        <td class="td_border">300 000 sum</td>
+                        <td class="td_border">420 000 sum</td>
+                        <td class="td_border dxlete"><div>Delete</div></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+<!--        fifth type of table end-->
+    </div>
+</div>
+</body>
+<script type="application/javascript" src="java.js"></script>
+</html>
